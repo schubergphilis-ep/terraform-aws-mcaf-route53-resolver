@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [2.1.1](https://github.com/schubergphilis-ep/terraform-aws-mcaf-route53-resolver/compare/v2.1.0...v2.1.1) (2026-07-07)
+
+
+### 🐛 Fixes
+
+* migrate MCAF module sources ([#2](https://github.com/schubergphilis-ep/terraform-aws-mcaf-route53-resolver/issues/2)) ([90e8b0a](https://github.com/schubergphilis-ep/terraform-aws-mcaf-route53-resolver/commit/90e8b0a7a6148985e362ce8feb29ed3951480632))
+
 ## [2.1.0](https://github.com/schubergphilis-ep/terraform-aws-mcaf-route53-resolver/compare/v2.0.0...v2.1.0) (2025-08-20)
 
 
@@ -41,4 +48,3 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### 🚀 Features
 
 * Route53 resolver module ([#1](https://github.com/schubergphilis/terraform-aws-mcaf-route53-resolver/pull/1)) ([9433c0d](https://github.com/schubergphilis-ep/terraform-aws-mcaf-route53-resolver/commit/9433c0db43f45cf19b740ecb17a1cdb6193f1067))
-

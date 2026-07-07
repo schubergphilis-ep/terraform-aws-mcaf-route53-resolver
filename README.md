@@ -22,7 +22,7 @@ IMPORTANT: We do not pin modules to versions in our examples. We highly recommen
 
 | Name | Source | Version |
 |------|--------|---------|
-| <a name="module_security_group"></a> [security\_group](#module\_security\_group) | schubergphilis/mcaf-security-group/aws | ~> 2.0.0 |
+| <a name="module_security_group"></a> [security\_group](#module\_security\_group) | schubergphilis-ep/mcaf-security-group/aws | ~> 2.0.0 |
 
 ## Resources
 

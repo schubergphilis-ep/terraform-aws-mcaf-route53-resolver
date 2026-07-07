@@ -28,7 +28,7 @@ data "aws_subnet" "selected" {
 module "security_group" {
   count = length(var.security_group_ids) == 0 ? 1 : 0
 
-  source  = "schubergphilis/mcaf-security-group/aws"
+  source  = "schubergphilis-ep/mcaf-security-group/aws"
   version = "~> 2.0.0"
 
   description = var.security_group_description

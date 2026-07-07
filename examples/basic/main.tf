@@ -49,7 +49,7 @@ data "aws_iam_policy_document" "kms_key_policy" {
 
 # kms
 module "kms_key" {
-  source  = "schubergphilis/mcaf-kms/aws"
+  source  = "schubergphilis-ep/mcaf-kms/aws"
   version = "~> 0.3.0"
 
   name        = "kmstest"
@@ -59,7 +59,7 @@ module "kms_key" {
 
 # vpc
 module "vpc" {
-  source  = "schubergphilis/mcaf-vpc/aws"
+  source  = "schubergphilis-ep/mcaf-vpc/aws"
   version = "~> 1.22.1"
 
   name                = "test"
